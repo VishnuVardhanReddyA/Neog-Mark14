@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+    background-color: darkmagenta;
+    color: azure;
+    text-align: center;
+    min-height: 4rem;
+    margin-bottom: 1rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.output{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+button{
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px;
+    border-radius: 1rem;
+}
+button:hover{
+    background-color: aqua;
+}
